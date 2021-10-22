@@ -1,0 +1,40 @@
+input{
+    border: 1px solid;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(228, 226, 226);
+    color: rgb(44, 38, 38);
+    outline: none;
+    padding: 0 5px;
+    text-align: center;
+}
+button{
+    border: 1px solid;
+    border-color: black;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(62, 112, 252);
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(54, 97, 216);
+}
+.result{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 50px 0 0;
+}
+.card{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+.result img{
+    width: 100%;
+    height: 100%;
+}
